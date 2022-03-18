@@ -1,0 +1,270 @@
+:root {
+  --body-bg-color: #dce4e3;
+  --green: #18c29c;
+  --light-green: #8ed7c6;
+  --light-grey: #dce4e3;
+  --text-color: #084236;
+}
+* {
+  margin: 0;
+}
+body {
+  background-color: var(--body-bg-color);
+  width: 20px;
+  height: 30px;
+}
+#sidebar {
+  width: 250px;
+  background-color: var(--green);
+  height: 100vh;
+}
+#sidebar.fechado {
+  width: 100px;
+}
+h1 {
+  position: absolute;
+  top: 18px;
+  left: 268px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+#sidebar.fechado h1 {
+  position: absolute;
+  top: 18px;
+  left: 145px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+}
+a {
+  position: relative;
+  left: 13px;
+  text-decoration: none;
+  color: var(--text-color);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+.icon {
+  position: relative;
+  top: 5px;
+  left: -13px;
+}
+.inp {
+  position: relative;
+  width: 222px;
+  height: 50.92px;
+  left: 14px;
+  top: 28.88px;
+  background: var(--light-green);
+  border-radius: 12px;
+  border: none;
+}
+::placeholder {
+  padding: 40px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: var(--text-color);
+}
+.divv {
+  position: relative;
+  left: 27px;
+  top: 36px;
+  line-height: 50px;
+}
+.logo {
+  position: relative;
+  padding-left: 29px;
+  top: 24px;
+}
+.menu {
+  position: relative;
+  left: 100px;
+}
+.text {
+  display: inline-block;
+}
+#sidebar.fechado div.divv .text {
+  display: none;
+}
+#sidebar.fechado div.divv .icon {
+  left: 0;
+}
+#sidebar.fechado div.logo .vet {
+  display: none;
+}
+#sidebar.fechado div.logo .menu {
+  left: 13px;
+}
+
+.tech {
+  position: relative;
+  width: 251px;
+  left: 0px;
+  top: 210px;
+  margin-top: auto;
+  height: 5rem;
+  flex: 1;
+  display: flex;
+  background: #8ed7c6;
+}
+#sidebar.fechado div.tech {
+  width: 100px;
+
+}
+#sidebar.fechado div.tech .foto {
+  display: none;
+}
+#sidebar.fechado div.tech p {
+  display: none;
+}
+#sidebar.fechado div.tech .log {
+  left: 30px;
+}
+.busca {
+  position: absolute;
+
+  width: 24px;
+
+  height: 24px;
+
+  left: 36px;
+
+  top: 74px;
+}
+
+#sidebar.fechado div.busca {
+  width: 100px;
+}
+
+#sidebar.fechado div.busca {
+  display: none;
+}
+
+#sidebar.fechado div.busca .inp {
+  left: 30px;
+}
+.foto {
+  position: absolute;
+
+  width: 45px;
+
+  height: 45px;
+
+  left: 13px;
+
+  top: 17px;
+
+  background: url(.png);
+
+  border-radius: 12px;
+}
+
+p {
+  position: absolute;
+
+  width: 87px;
+
+  height: 45px;
+
+  left: 75px;
+
+  top: 23px;
+
+  background: url(.png);
+
+  border-radius: 12px;
+}
+
+.log {
+  position: absolute;
+
+  width: 24px;
+
+  height: 24px;
+
+  left: 207px;
+
+  top: 31px;
+}
+#sidebar.fechado div.inpt input {
+  width: 20px;
+
+  padding-left: 50px;
+
+  position: relative;
+
+  height: 50.92px;
+
+  left: 14px;
+
+  top: 28.88px;
+
+  background: var(--light-green);
+
+  border-radius: 12px;
+
+  border: none;
+}
+
+#sidebar div.inpt input {
+  position: relative;
+
+  width: 222px;
+
+  height: 50.92px;
+
+  left: 14px;
+
+  top: 28.88px;
+
+  background: var(--light-green);
+
+  border-radius: 12px;
+
+  border: none;
+}
+#sidebar.fechado div.inputt input {
+  width: 20px;
+
+  padding-left: 50px;
+
+  position: relative;
+
+  height: 50.92px;
+
+  left: 18px;
+
+  top: 28.88px;
+
+  background: var(--light-green);
+
+  border-radius: 12px;
+
+  border: none;
+}
+
+#sidebar div.inputt input {
+  position: relative;
+
+  width: 222px;
+
+  height: 50.92px;
+
+  left: 14px;
+
+  top: 28.88px;
+
+  background: var(--light-green);
+
+  border-radius: 12px;
+
+  border: none;
+}
